@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 1em;
+    color: black;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    padding: 1em;
+    color: black;
+}
+.headshot {
+    border: 5px solid black;
+}
+.splash {
+    text-align: center;
+    background-color: #7fcbcb;
+    margin: 0;
+}
+.splash h1 {
+    text-align: center;
+    background-color: #7fcbcb;
+    font-size: 40px;
+}
+.splash p {
+    text-align: center;
+    background-color: #7fcbcb;
+    font-size: 25px;
+}
+hr {
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 0;
+}
+.three-col {
+    padding: 20px;
+    background-color: #7fcbcb;
+    box-shadow: 0 0 10px #000000;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+    border: 3px solid #000000;
+    padding: 15px;
+    align-items: center;
+}
+.one-col {
+    max-width: 250px;
+    padding: 20px;
+    margin-inline-start: 300px;
+    background-color: #7fcbcb;
+    box-shadow: 0 0 10px #000000;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    color: #086666;
+    text-decoration: none;
+}
+a:hover {
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.three-col-skills {
+    padding: 20px;
+    box-shadow: 0 0 10px #000000;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card-skills {
+    border: 3px solid #000000;
+    padding: 15px;
+    align-items: center;
+}
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.ul-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+ul {
+    display: grid;
+}
+.splash .personal {
+    font-size: 20px;
+}
